@@ -28,7 +28,7 @@ SECRET_KEY = 'b9b&jn3=*k-+!#k9sh@@pml$44!ptt0g(@%i$el10k!k#wt=5r'
 #getattr(settings, 'AUTH_USER_MODEL', 'auth.User')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['herokuTestFyle.herokuapp.com']
+ALLOWED_HOSTS = []
 #AUTH_USER_MODEL = 'rest_framework.authtoken'
 # Application definition
 
