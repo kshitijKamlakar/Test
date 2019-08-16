@@ -1,1 +1,1 @@
-'web: gunicorn TestFyle.wsgi' 
+web: gunicorn TestFyle.wsgi
