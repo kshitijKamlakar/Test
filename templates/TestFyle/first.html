@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Details</title>
+</head>
+<body>
+
+{% for d in details %}
+    <ul>
+        <li>{{ d.ifsc }}</li>
+        <li>{{ d.bank_id }}</li>
+        <li>{{ d.branch }}</li>
+        <li>{{ d.address }}</li>
+        <li>{{ d.city }}</li>
+        <li>{{ d.district }}</li>
+        <li>{{ d.state }}</li>
+        <li>{{ d.bank_name }}</li>
+    </ul>
+{% endfor %}
+</body>
+</html>
