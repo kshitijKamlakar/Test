@@ -1,0 +1,836 @@
+2021-08-20 15:10:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:10:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:10:42 [WARNING ] (apps.initialize_payment) Your log message is here
+2021-08-20 15:10:42 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods
+2021-08-20 15:10:44 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods response_code=200
+2021-08-20 15:10:44 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/customers
+2021-08-20 15:10:46 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/customers response_code=200
+2021-08-20 15:10:46 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods/pm_1JQUDOSIZrJSg32jn5GNBPsA/attach
+2021-08-20 15:10:46 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods/pm_1JQUDOSIZrJSg32jn5GNBPsA/attach response_code=200
+2021-08-20 15:10:46 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/prices
+2021-08-20 15:10:47 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/prices response_code=200
+2021-08-20 15:10:47 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/subscriptions
+2021-08-20 15:10:51 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/subscriptions response_code=200
+2021-08-20 15:10:51 [INFO    ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 200 17
+2021-08-20 15:10:51 [INFO    ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 200 17
+2021-08-20 15:11:30 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:11:30 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:11:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:11:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:11:32 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:11:32 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:11:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:11:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:11:58 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:11:58 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:11:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:11:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:01 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:01 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:13 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:13 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:28 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:28 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:28 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:28 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:43 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:43 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:12:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:12:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:00 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:00 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:08 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:08 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:11 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:11 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:15 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:15 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:15 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:15 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:19 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:19 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:22 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:22 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:26 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:26 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:42 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:42 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:13:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:13:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:13 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:13 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:16 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:16 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:17 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:17 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:44 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:44 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:52 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:52 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:14:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:14:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:05 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:05 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:16 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:16 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:17 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:17 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:18 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:18 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:15:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:15:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:16:51 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:16:51 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:16:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:16:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:16:55 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:16:55 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:16:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:16:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:00 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:00 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:06 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:06 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:11 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:11 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:17 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:17 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:17:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:17:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:01 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:01 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:15 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:15 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:15 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:15 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:31 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:31 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:48 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:48 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:52 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:52 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:43:53 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:43:53 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:18 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:18 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:27 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:27 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:28 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:28 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:30 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:30 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:48 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:48 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:54 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:54 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:44:55 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:44:55 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:02 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:02 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:05 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:05 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:12 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:12 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:26 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:26 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:35 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:35 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:37 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:37 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:41 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:41 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:44 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:44 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:47 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:47 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:45:59 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:45:59 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:02 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:02 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:09 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:09 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:22 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:22 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:23 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:23 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:33 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:33 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:40 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:40 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:54 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:54 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:46:59 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:46:59 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:01 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:01 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:08 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:08 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:18 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:18 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:24 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:27 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:27 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:28 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:28 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:31 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:31 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:35 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:35 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:48 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:48 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:51 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:51 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:53 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:53 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:56 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:56 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:47:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:47:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:07 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:07 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:09 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:09 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:21 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:21 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:25 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:25 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:36 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:36 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:48:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:48:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:04 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:04 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:13 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:13 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:46 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:49 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:49 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:50 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:50 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:52 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:52 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:49:59 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:49:59 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:05 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:05 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:19 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:19 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-20 15:50:20 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:50:20 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:00 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:00 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:04 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:04 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:09 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:09 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 15:58:17 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 15:58:17 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-20 16:07:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 16:07:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 16:07:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-20 16:07:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 09:37:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 09:37:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 09:58:15 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 09:58:15 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 09:58:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 09:58:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:11:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:11:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:12:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-21 10:12:10 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-21 10:12:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:12:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:12:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:12:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:12:20 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-21 10:12:20 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-21 10:12:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:12:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:14:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:14:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:14:28 [ERROR   ] (apps.initialize_payment) name 'Payment_Details' is not defined
+2021-08-21 10:14:28 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:14:28 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:14:28 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:14:28 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:14:37 [ERROR   ] (apps.initialize_payment) name 'Payment_Details' is not defined
+2021-08-21 10:14:37 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:14:37 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:14:37 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:14:37 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:14:48 [ERROR   ] (apps.initialize_payment) name 'Payment_Details' is not defined
+2021-08-21 10:14:48 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:14:48 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:14:48 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:14:48 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:15:13 [ERROR   ] (apps.initialize_payment) name 'Payment_Details' is not defined
+2021-08-21 10:15:13 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:15:13 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:15:13 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:15:13 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:15:38 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-21 10:15:38 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-21 10:15:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:15:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:15:43 [ERROR   ] (apps.initialize_payment) name 'Payment_Details' is not defined
+2021-08-21 10:15:43 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:15:43 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:15:43 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:15:43 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:16:25 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-21 10:16:25 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\apps.py changed, reloading.
+2021-08-21 10:16:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:16:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:16:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:16:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:16:56 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\models.py changed, reloading.
+2021-08-21 10:16:56 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\payment_services\models.py changed, reloading.
+2021-08-21 10:16:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:16:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:17:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:17:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:17:18 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods
+2021-08-21 10:17:20 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods response_code=200
+2021-08-21 10:17:20 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/customers
+2021-08-21 10:17:22 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/customers response_code=200
+2021-08-21 10:17:22 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods/pm_1JQm70SIZrJSg32jTG2Kt8YG/attach
+2021-08-21 10:17:22 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods/pm_1JQm70SIZrJSg32jTG2Kt8YG/attach response_code=200
+2021-08-21 10:17:22 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/prices
+2021-08-21 10:17:22 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/prices response_code=200
+2021-08-21 10:17:22 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/subscriptions
+2021-08-21 10:17:27 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/subscriptions response_code=200
+2021-08-21 10:17:27 [ERROR   ] (apps.initialize_payment) name 'Payment_Status' is not defined
+2021-08-21 10:17:27 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:17:27 [ERROR   ] (log.log_response) Service Unavailable: /initialize_payment/
+2021-08-21 10:17:27 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:17:27 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 503 35
+2021-08-21 10:18:43 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:18:43 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:19:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:19:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:21:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:21:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:22:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:22:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:22:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:22:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:23:17 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:23:17 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:23:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:23:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:41:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:41:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-21 10:41:50 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods
+2021-08-21 10:41:51 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods response_code=200
+2021-08-21 10:41:51 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/customers
+2021-08-21 10:41:53 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/customers response_code=200
+2021-08-21 10:41:53 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods/pm_1JQmUjSIZrJSg32jyyTcAOtF/attach
+2021-08-21 10:41:54 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods/pm_1JQmUjSIZrJSg32jyyTcAOtF/attach response_code=200
+2021-08-21 10:41:54 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/prices
+2021-08-21 10:41:54 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/prices response_code=200
+2021-08-21 10:41:54 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/subscriptions
+2021-08-21 10:41:58 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/subscriptions response_code=200
+2021-08-21 10:41:58 [ERROR   ] (apps.initialize_payment) relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+2021-08-21 10:41:58 [ERROR   ] (log.log_response) Internal Server Error: /initialize_payment/
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 57, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 64, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+2021-08-21 10:41:58 [ERROR   ] (log.log_response) Internal Server Error: /initialize_payment/
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 57, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 64, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "paymentStatus" does not exist
+LINE 1: INSERT INTO "paymentStatus" ("payment_method", "customer_nam...
+                    ^
+
+2021-08-21 10:41:58 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 500 241539
+2021-08-21 10:41:58 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 500 241539
+2021-08-22 11:05:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-22 11:05:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-22 11:05:32 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods
+2021-08-22 11:05:35 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods response_code=200
+2021-08-22 11:05:35 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/customers
+2021-08-22 11:05:36 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/customers response_code=200
+2021-08-22 11:05:36 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_methods/pm_1JR9LFSIZrJSg32jspRsO2Rp/attach
+2021-08-22 11:05:37 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/payment_methods/pm_1JR9LFSIZrJSg32jspRsO2Rp/attach response_code=200
+2021-08-22 11:05:37 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/prices
+2021-08-22 11:05:37 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/prices response_code=200
+2021-08-22 11:05:37 [INFO    ] (util.log_info) message='Request to Stripe api' method=post path=https://api.stripe.com/v1/subscriptions
+2021-08-22 11:05:41 [INFO    ] (util.log_info) message='Stripe API response' path=https://api.stripe.com/v1/subscriptions response_code=200
+2021-08-22 11:05:41 [ERROR   ] (apps.initialize_payment) settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2021-08-22 11:05:42 [ERROR   ] (log.log_response) Internal Server Error: /initialize_payment/
+Traceback (most recent call last):
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 57, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1414, in execute_sql
+    with self.connection.cursor() as cursor:
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\dummy\base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 64, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1414, in execute_sql
+    with self.connection.cursor() as cursor:
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\dummy\base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2021-08-22 11:05:42 [ERROR   ] (log.log_response) Internal Server Error: /initialize_payment/
+Traceback (most recent call last):
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 57, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1414, in execute_sql
+    with self.connection.cursor() as cursor:
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\dummy\base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\ML_project\stripe_services\payment_services\apps.py", line 64, in initialize_payment
+    payment_status.store_payment_info()
+  File "D:\ML_project\stripe_services\payment_services\models.py", line 26, in store_payment_info
+    self.save()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\models\sql\compiler.py", line 1414, in execute_sql
+    with self.connection.cursor() as cursor:
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "C:\Users\ACER\anaconda3\envs\stripe\lib\site-packages\django\db\backends\dummy\base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+2021-08-22 11:05:42 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 500 191625
+2021-08-22 11:05:42 [ERROR   ] (basehttp.log_message) "POST /initialize_payment/ HTTP/1.1" 500 191625
+2021-08-22 11:06:11 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-22 11:06:11 [INFO    ] (autoreload.trigger_reload) D:\ML_project\stripe_services\stripe_services\settings.py changed, reloading.
+2021-08-22 11:07:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-08-22 11:07:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
